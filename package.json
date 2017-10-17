@@ -1,0 +1,11 @@
+{
+  "name": "practice-javascript",
+  "version": "1.0.0",
+  "description": "javascriptを試すパッケージ",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  },
+  "scripts": {
+    "watch": "browser-sync start --server --files *"
+  }
+}

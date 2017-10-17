@@ -1,0 +1,30 @@
+#map {
+  width: 100%;
+  max-width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.contents-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.address-form {
+  margin-bottom: 30px;
+}
+.address-form ul {
+  padding: 0;
+}
+  .address-form ul:after {
+    content:" ";
+    display:block;
+    clear:both;
+  }
+.address-form ul li {
+  list-style-type: none;
+  float: left;
+  background: #ccc;
+  padding: 2px 5px;
+  font-size: 12px;
+  margin-right: 10px;
+}
